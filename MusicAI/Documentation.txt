@@ -1,0 +1,28 @@
+﻿-i		Creates a new network.
+
+		-- Usage --
+		-i [numberOfNodes] [numberOfConnections] [numberOfInputs] [numberOfOutputs]
+
+
+-o		Opens an existing network.
+		
+		-- Usage --
+		-o [path]
+
+
+-s		Save the network to disk.
+		
+		-- Usage --
+		-s [path]
+
+
+-l		Let the network learn.
+
+		-- Usage --
+		-l [binary file (32 bit floating point)]
+
+		
+-x		Let the network run.
+		
+		-- Usage --
+		-x [binary file (32 bit floating point) path] [result path]
